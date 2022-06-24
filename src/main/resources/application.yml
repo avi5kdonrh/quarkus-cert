@@ -1,0 +1,17 @@
+quarkus:
+  devservices:
+    enabled: false
+  vault:
+    url: http://localhost:8200
+    authentication:
+      client-token: s.M4zODZrmU306ibJce14EN8Pt
+    secret-config-kv-path: application
+  http:
+    ssl-port: 8443
+    ssl:
+      client-auth: REQUIRED
+      certificate:
+        key-store-file: /home/adongre/Music/2Way/keystore.jks
+        key-store-password: ${keystore-password}
+        trust-store-file: /home/adongre/Music/2Way/truststore.jks
+        trust-store-password:  ${truststore-password}

@@ -1,8 +1,8 @@
 # quarkus-certificate Project
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+## To create a vault server:
 
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+https://quarkiverse.github.io/quarkiverse-docs/quarkus-vault/dev/index.html
 
 ## Running the application in dev mode
 
