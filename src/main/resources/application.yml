@@ -11,7 +11,7 @@ quarkus:
     ssl:
       client-auth: REQUIRED
       certificate:
-        key-store-file: /home/adongre/Music/2Way/keystore.jks
+        key-store-file: /location/keystore.jks
         key-store-password: ${keystore-password}
-        trust-store-file: /home/adongre/Music/2Way/truststore.jks
+        trust-store-file: /location/truststore.jks
         trust-store-password:  ${truststore-password}
